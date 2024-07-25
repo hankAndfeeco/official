@@ -1,0 +1,349 @@
+---
+title: "Home"
+description: "The main branch of the advanced starter kit. Contains a basic 11ty setup for clients not needing much
+additional functionality. Similar to our Intermediate Kits."
+permalink: '/'
+eleventyNavigation:
+    key: 'Home'
+    order: '100'
+---
+
+{% block head %}
+<link rel="stylesheet" href="/assets/css/local.css" />
+{% endblock %} {% extends 'layouts/base.html' %} {% block body %}
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1621">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">For any small business need</span>
+      <h1 class="cs-title">Let us solve your critical website development challenges</h1>
+      <a href="contact/" class="cs-button-solid">Book Now</a>
+      <!--Bottom Corners-->
+      <div class="cs-corners" aria-hidden="true"></div>
+    </div>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-styles.svg"
+          alt="icon"
+          width="48"
+          height="48"
+        />
+        <h2 class="cs-h3">Clean Code</h2>
+        <p class="cs-item-text">
+          Easy to read, maintain, understand and change through structure and consistency yet remains robust and secure to withstand performance demands
+        </p>
+      </li>
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-optimize.svg"
+          alt="icon"
+          width="48"
+          height="48"
+        />
+        <h2 class="cs-h3">Flexible Infrastructure</h2>
+        <p class="cs-item-text">We can flexibly setup Internet architecture and programming technology according to customer requirements.</p>
+      </li>
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-cart.svg"
+          alt="icon"
+          width="48"
+          height="48"
+        />
+        <h2 class="cs-h3">24h Service</h2>
+        <p class="cs-item-text">
+          Customers can get their issues resolved anytime they need assistance. This is the support that is available 24 hours a day and 7 days a week
+        </p>
+      </li>
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-cms.svg"
+          alt="icon"
+          width="48"
+          height="48"
+        />
+        <h2 class="cs-h3">Cloud Support</h2>
+        <p class="cs-item-text">
+          We offers a highly scalable infrastructure that can easily accommodate large-scale operations. This is critical for big companies that need to be able
+          to rapidly scale their infrastructure to meet changing demands
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Background Image -->
+  <picture class="cs-background">
+    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2-m.jpeg" />
+    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg" />
+    <img
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg"
+      alt="meeting"
+      width="1920"
+      height="1200"
+      aria-hidden="true"
+    />
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-523">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Why Pulse Point</span>
+      <h2 class="cs-title">True Value Without Confusion</h2>
+      <p class="cs-text">
+        We've worked in various industries creating custom software that takes complicated problems and elegantly presents them as simple solutions.
+      </p>
+      <p class="cs-text">
+        We believe that the key to good design is to take things that are difficult to work with or understand and make them easy for everyone involved.
+      </p>
+      <p class="cs-text">We work as one team, bringing the right people, technology and expertise together for you.</p>
+      <p class="cs-text">We listen more than we talk, so we can understand your needs and offer tailored solutions.</p>
+      <p class="cs-text">With creativity, hard work and vision, we help clients discover what's on the horizon.</p>
+      <a href="" class="cs-button-solid">Read More</a>
+    </div>
+    <div class="cs-image-group">
+      <!--Large Image-->
+      <picture class="cs-picture cs-picture-large">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting.jpeg" />
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting.jpeg" />
+        <img
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting.jpeg"
+          alt="lab"
+          width="334"
+          height="380"
+        />
+      </picture>
+      <!--Small Image-->
+      <picture class="cs-picture cs-picture-small">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg" />
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg" />
+        <img
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg"
+          alt="lab"
+          width="183"
+          height="158"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Steps                      -->
+<!-- ============================================ -->
+
+<section id="steps-1172">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Just a few steps before</span>
+      <h2 class="cs-title">How To It Works</h2>
+    </div>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-git.svg"
+            alt="icon"
+            width="48"
+            height="48"
+          />
+        </picture>
+        <h2 class="cs-h3">Ideation</h2>
+        <p class="cs-item-text">
+          The first step is to conceptualize the project, plan, and envision your goals. At this step, you can define the business scope for each idea, develop
+          your product backlog, and delineate all sprints that need to be included in the project.
+        </p>
+      </li>
+
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-install.svg"
+            alt="icon"
+            width="48"
+            height="48"
+          />
+        </picture>
+        <h2 class="cs-h3">Inception</h2>
+        <p class="cs-item-text">
+          Once you know that your project is viable, you can start creating sprint teams and assign their respective tasks. Each team will be assigned a set of
+          specific goals and a timeframe to complete them. Funding and resources are also allocated at this stage.
+        </p>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-code.svg"
+            alt="icon"
+            width="48"
+            height="48"
+          />
+        </picture>
+        <h2 class="cs-h3">Iteration</h2>
+        <p class="cs-item-text">
+          Once you have set the project requirements and prepared the working environments, the sprint teams can start working on the project with the first
+          iteration. Here, they can also tackle the product backlog items.
+        </p>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-todo.svg"
+            alt="icon"
+            width="48"
+            height="48"
+          />
+        </picture>
+        <h2 class="cs-h3">Production</h2>
+        <p class="cs-item-text">
+          Once all testing and documentation are done, the product is marked as approved in the production phase. They can further launch the product and
+          provide the required support for its release.
+        </p>
+      </li>
+    </ul>
+  </div>
+  <!--Tire Screech-->
+</section>
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-1657">
+  <div class="cs-container">
+    <div class="cs-content">
+      <div class="cs-flex">
+        <span class="cs-topper">Pulse Point Ideas</span>
+        <h2 class="cs-title">Making software accessible</h2>
+      </div>
+      <ul class="cs-ul">
+        <li class="cs-li">
+          <span class="cs-number">1</span>
+          <p class="cs-li-text">
+            Talented members of our team will dedicate themselves to the success of your project. They'll guide you through the entire process of creating
+            custom software.
+          </p>
+        </li>
+        <li class="cs-li">
+          <span class="cs-number">2</span>
+          <p class="cs-li-text">We've proven time and time that application doesn't have to be complicated, even in complex software ecosystems.</p>
+        </li>
+        <li class="cs-li">
+          <span class="cs-number">3</span>
+          <p class="cs-li-text">Thoughtful communication along the way eliminates mysteries, misunderstandings, and mistakes.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="cs-wrapper">
+      <picture class="cs-picture">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting12.jpg" />
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting12.jpg" />
+        <img
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting12.jpg"
+          alt="meeting"
+          width="630"
+          height="414"
+        />
+      </picture>
+
+      <p class="cs-review">
+        <svg class="cs-quote" preserveAspectRatio="none" viewBox="0 0 100 93" fill="none" xmlns="http://www.w3.org/2000/svg" preser>
+          <g opacity=".4" clip-path="url(#a)" fill="var(--quoteColor)"><path d="M22.94 84H0L18.305.854H55L22.94 84ZM67.94 84H45L63.305.854H100L67.94 84Z" /></g>
+          <defs>
+            <clipPath id="a-1657"><path fill="#fff" transform="translate(0 .854)" d="M0 0h100v83.146H0z" /></clipPath>
+          </defs>
+        </svg>
+        Transforming businesses with tailored software solutions for optimized efficiency and accelerated growth in the digital era.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-1309">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-image-group">
+      <!--Floating Box-->
+      <div class="cs-box">
+        <span class="cs-desc">Building a better website, together</span>
+      </div>
+      <!--Image-->
+      <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/tax1.jpg" />
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/tax1.jpg" />
+        <img
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/tax1.jpg"
+          alt="meeting"
+          width="630"
+          height="630"
+          aria-hidden="true"
+        />
+      </picture>
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-content">
+      <span class="cs-topper">Help & Support</span>
+      <h2 class="cs-title">Guidance every step of the way</h2>
+      <p class="cs-text">At PulsePoint, we're dedicated to supporting you at every stage of your software journey.</p>
+      <p class="cs-text">
+        Our experienced team provides prompt technical assistance, personalized consultation, and comprehensive training to empower you with the skills and
+        knowledge you need.
+      </p>
+      <p class="cs-text">We take a proactive approach to problem-solving, ensuring smooth operations for your business.</p>
+      <p class="cs-text">Partner with us for reliable help and support that drives your success in today's competitive landscape.</p>
+      <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

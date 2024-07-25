@@ -1,0 +1,21 @@
+{
+  "name": "Pulse Point Software",
+  "email": "hello@pulsepointsoftware.com",
+  "phoneForTel": "204-804-2008",
+  "phoneFormatted": "(204) 804-2008",
+  "address": {
+    "lineOne": "3500 Varsity Dr NW #1206",
+    "lineTwo": "",
+    "city": "Calgary",
+    "state": "AB",
+    "zip": "T2L 1Y3",
+    "mapLink": "https://maps.app.goo.gl/E92e5ccSKPvcB5Eh6"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/101428024",
+    "twitter": "https://twitter.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/"
+  },
+  "domain": "https://www.pulsepointsoftware.com"
+}

@@ -1,0 +1,202 @@
+{
+  "courses": [
+    {
+      "course_name": "Noosu",
+      "course_description": "Cras vulputate lorem et leo fringilla, ac pulvinar nisl mollis. Sed et est est. Vivamus mattis erat ante, vel imperdiet lorem sagittis sed. Suspendisse potenti. Donec sit amet suscipit felis.",
+      "sections": [
+        {
+          "section_name": "Noosu Home Care",
+          "section_description": "Noosu is onsite care on-demand. The Noosu app is designed to connect you to expert professionals whenever and wherever you need 24/7. Join the waitlist to be part of this Homecare revolution. ",
+          "items": [
+            {
+              "item_name": "Customer Link",
+              "item_description": "Access healthcare services from the comfort and safety of your home.",
+              "item_link": "https://app.noosu.ca/",
+              "item_price": null
+            },
+            {
+              "item_name": "Client Androiod App",
+              "item_description": "Noosu is onsite care on-demand. The Noosu app is designed to connect you to expert professionals whenever and wherever you need 24/7. Experience the best in on-demand service and be part of this Home Care revolution.",
+              "item_link": "https://play.google.com/store/apps/details?id=com.noosu.noosu&hl=en&gl=US",
+              "item_price": null
+            },
+            {
+              "item_name": "Client IOS App",
+              "item_description": "Noosu is onsite care on-demand. The Noosu app is designed to connect you to expert professionals whenever and wherever you need 24/7. Experience the best in on-demand service and be part of this Home Care revolution.",
+              "item_link": "https://apps.apple.com/us/app/noosu/id6463180959",
+              "item_price": null
+            },
+            {
+              "item_name": "Technician Andriod App",
+              "item_description": "Streamline your caregiving with Noosu's Service Provider App. Manage shifts, view appointments, track earnings, and access support—all in one place. Experience the ease and efficiency of working like never before.",
+              "item_link": "https://play.google.com/store/apps/details?id=com.noosu.technician&hl=en&gl=US",
+              "item_price": null
+            },
+            {
+              "item_name": "Noosu Official",
+              "item_description": "Noosu marketing site",
+              "item_link": "https://noosu.ca/",
+              "item_price": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_name": "Sketchbox 3D",
+      "course_description": "Sketchbox is a platform used by transport Canada and united states air force whoever wants to manage their VR session data.",
+      "sections": [
+        {
+          "section_name": "Sketchbox",
+          "section_description": "Sketchbox is a platform used by transport Canada, united states air force and other organizations wants to manage their VR session data.",
+          "items": [
+            {
+              "item_name": "Admin Link 1",
+              "item_description": "Portal used by transport Canada",
+              "item_link": "https://tc.sketchbox3d.com",
+              "item_price": null
+            },
+            {
+              "item_name": "Admin Link 2",
+              "item_description": "Portal used by United States air force",
+              "item_link": "https://usaf.sketchbox3d.com",
+              "item_price": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_name": "Exclusive Rewards",
+      "course_description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus aliquet ac massa sed consequat. Donec sit amet vulputate eros. Integer lorem sapien, vulputate eget lobortis ac, placerat vitae lacus.",
+      "sections": [
+        {
+          "section_name": "Exclusive Rewards",
+          "section_description": null,
+          "items": [
+            {
+              "item_name": "Exclusive Rewards Official",
+              "item_description": "Exclusive Rewards Marketing",
+              "item_link": "https://exclusiverewards.com/",
+              "item_price": null
+            },
+            {
+              "item_name": "Exclusive Rewards",
+              "item_description": " Exclusive Rewards allows you to show your phone for the best discounts on everything you do.",
+              "item_link": "https://rewards-partner.staging.exclusive-rewards.vogdevelopment.com/auth/login",
+              "item_price": null
+            },
+            {
+              "item_name": "Life Style Rewards",
+              "item_description": " Exclusive Rewards allows you to show your phone for the best discounts on everything you do.",
+              "item_link": "https://lifestyle-partner.staging.exclusive-rewards.vogdevelopment.com/auth/login",
+              "item_price": null
+            },
+            {
+              "item_name": "Admin Link",
+              "item_description": "Portal for ER admin.",
+              "item_link": "https://super-admin.staging.exclusive-rewards.vogdevelopment.com/auth/login-page",
+              "item_price": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_name": "Luxe Du Jour",
+      "course_description": "Proin porttitor ante quis magna sodales mattis. Pellentesque sed consectetur purus, eget sagittis urna. Cras fringilla, ligula at volutpat eleifend, nibh velit elementum felis, quis lobortis turpis nisi vitae augue.",
+      "sections": [
+        {
+          "section_name": "Luxe Du Jour",
+          "section_description": "A luxury consignment and rental company that specializes in designer handbags and accessories. They offer buying, selling, consigning, renting, restoring, and accessorizing services.",
+          "items": [
+            {
+              "item_name": "Luxe Du Jour Purchase",
+              "item_description": "Luxe Du Jour is a Canadian-born one-stop online luxury boutique where you can shop, sell, consign, rent, restore and accessorize bags.",
+              "item_link": "https://ldj.com/",
+              "item_price": null
+            },
+            {
+              "item_name": "Androiod App",
+              "item_description": "Luxe Du Jour is the epitome of innovative luxury resale where you can shop, sell, consign, rent, lend, restore designer handbags and accessories all in one place.",
+              "item_link": "https://play.google.com/store/apps/details?id=com.vog.luxedujour&hl=en&gl=US",
+              "item_price": null
+            },
+            {
+              "item_name": "IOS App",
+              "item_description": "Luxe Du Jour is the epitome of innovative luxury resale where you can shop, sell, consign, rent, lend, restore designer handbags and accessories all in one place.",
+              "item_link": "https://apps.apple.com/ca/app/luxe-du-jour/id1636010488",
+              "item_price": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_name": "Karbon X",
+      "course_description": "Proin porttitor ante quis magna sodales mattis. Pellentesque sed consectetur purus, eget sagittis urna. Cras fringilla, ligula at volutpat eleifend, nibh velit elementum felis, quis lobortis turpis nisi vitae augue.",
+      "sections": [
+        {
+          "section_name": "Karbon X",
+          "section_description": "Giving people the power to drive positive change for the planet through carbon offsetting ",
+          "items": [
+            {
+              "item_name": "Customer Link",
+              "item_description": "Choose from a variety of projects that spark your interest and offset your carbon today.",
+              "item_link": "https://portal.karbon-x.com/",
+              "item_price": null
+            },
+            {
+              "item_name": "Admin Link",
+              "item_description": "Portal for Karbon-x admin.",
+              "item_link": "https://admin-internal.karbon-x.com/signin",
+              "item_price": null
+            },
+            {
+              "item_name": "Androiod App",
+              "item_description": "Karbon-X is an app that caters to environmentally conscious people and businesses who wish to contribute to clean energy and eco-friendly initiatives and offset their carbon emissions. The app is free to download.",
+              "item_link": "https://play.google.com/store/apps/details?id=com.vog.karbonx&hl=en_CA&gl=US",
+              "item_price": null
+            },
+            {
+              "item_name": "IOS App",
+              "item_description": "Karbon-X is an app that caters to environmentally conscious people and businesses who wish to contribute to clean energy and eco-friendly initiatives and offset their carbon emissions. The app is free to download.",
+              "item_link": "https://apps.apple.com/ca/app/karbon-x/id1673803570",
+              "item_price": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_name": "OSL",
+      "course_description": "Ut sodales, ex nec tempus euismod, purus libero pulvinar tortor, vel ultrices nunc ipsum sit amet mi. Morbi dignissim convallis diam sed auctor. Maecenas vehicula quam sit amet consequat convallis.",
+      "sections": [
+        {
+          "section_name": "OSL ERP",
+          "section_description": "OSL ERP system is used to manage day-to-day project activities such as jobs, locations, workers, risk management and equipments.",
+          "items": [
+            {
+              "item_name": "Admin Link",
+              "item_description": "OSL Admin portal",
+              "item_link": "https://admin.staging.osl.vogdevelopment.com/",
+              "item_price": null
+            },
+            {
+              "item_name": "Androiod App",
+              "item_description": "Under Development",
+              "item_link": "",
+              "item_price": null
+            },
+            {
+              "item_name": "IOS App",
+              "item_description": "Under Development",
+              "item_link": "",
+              "item_price": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
